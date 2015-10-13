@@ -12,7 +12,7 @@
 {include file="_partials/errors.tpl"}
 
         <div class="alert alert-info">
-          are you expecting a deposit and cannot see it?  No problem, call the call centre on 086 111 3673.  This can happen if your reference was not correct when the deposit was made.
+          Are you expecting a deposit and cannot see it?  No problem, call the call centre on 086 111 3673.  This can happen if your reference was not correct when the deposit was made.
         </div>
 
         <h3>My Accounts</h3>
