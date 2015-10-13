@@ -12,7 +12,7 @@
 
     <title>Diamond Cash &mdash; Your Money Matters &mdash; {$title}</title>
 {include file="_partials/header-bsfa.tpl"}
-    <link href="/css/imogo.css" rel="stylesheet">
+    <link href="/css/diamondcash.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto" rel="stylesheet">
 
 {include file="_partials/header-shims.tpl"}
@@ -83,7 +83,7 @@
           <li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
 {if !(array_key_exists('brand', $smarty.session))}
-        <h3 class="text-muted"><img src="/images/brands/diamondcashi.jpg" alt="Diamond Cash Card" height="100"></h3>
+        <h3 class="text-muted"><img src="/images/brands/diamondcash.jpg" alt="Diamond Cash Card" height="100"></h3>
 {else}
         <h3 class="text-muted">&nbsp;</h3>
 {/if}
