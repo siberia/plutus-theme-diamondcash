@@ -15,7 +15,7 @@
     <tr>
       <td>{$account.account_number}</td>
       <td>{$account.description|escape}</td>
-      <td>{if $account.account_type == 'wallet'}Dimaond Account{elseif $account.account_type == 'business'}Business Account{/if}</td>
+      <td>{if $account.account_type == 'wallet'}Diamond Account{elseif $account.account_type == 'business'}Business Account{/if}</td>
       <td>R {($account.balance/100)|string_format:"%.2f"}</td>
     </tr>
   </tbody>
