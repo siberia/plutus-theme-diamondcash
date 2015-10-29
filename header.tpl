@@ -42,7 +42,7 @@
           <li{if preg_match("!\/sms?.+!", $smarty.server.REQUEST_URI)} class="active"{/if}><a href="/sms">SMS</a></li>
 {/if}
 {if $smarty.session.show_biztools}
-          <li class="dropdown{if preg_match("!\/(agency|debitorders|payrolls)?.+!", $smarty.server.REQUEST_URI)} active{/if}">
+          <li class="dropdown{if preg_match("!\/(agency?|debitorders?|payrolls?).+!", $smarty.server.REQUEST_URI)} active{/if}">
             <a class="dropdown-toggle"
               data-toggle="dropdown"
               href="#">
