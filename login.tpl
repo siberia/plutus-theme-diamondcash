@@ -68,7 +68,7 @@
 <div>
 
       <footer>
-        <p>&copy; 2014&mdash;2015 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Zwelonke Holdings (Pty) Ltd is a Licensed Financial Services Provider.  FSP Number: 6814.  Symelation Holdings (Pty) Ltd is a juristic representative of Zwelonke Holdings (Pty) Ltd. Call Centre: 086 111 3673.  Funeral Products are underwritten by Zwelonke Holdings (Pty) Ltd (FSP: 6814).
+        <p>&copy; 2014&mdash;2015 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Symelation Holdings (Pty) Ltd is a juristic representative of FSP 6814. Call Centre: 086 111 3673.
         </p>
 
         <p>
