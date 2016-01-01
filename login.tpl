@@ -27,7 +27,6 @@
 
   ga('create', 'UA-55853251-2', 'auto');
   ga('send', 'pageview');
-
 </script>
 {/literal}
   </head>
@@ -72,7 +71,7 @@
         </p>
 
         <p>
-          Hosted by our friends at <a href="https://kaizengarden.co/">Kaizen Garden</a>.  Made with &hearts; in Cape Town by <a href="http://www.siberia.co.za/">Siberia</a>.
+          Powerered by <a href="http://www.siberia.co.za/products/plutus/">Plutus</a>.  Made with &hearts; in Cape Town by <a href="http://www.siberia.co.za/">Siberia</a>.
         </p>
       </footer>
     </div>
