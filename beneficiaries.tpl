@@ -67,7 +67,7 @@
 </td>
 <td>
 {if $smarty.session.fica_status ne 0}
-<input type="submit" class="btn btn-primary" value="Pay Beneficiaries" />
+<input data-disable-with="Processing ..." type="submit" class="btn btn-primary" value="Pay Beneficiaries" />
 {/if}
 </td>
             </tr>
