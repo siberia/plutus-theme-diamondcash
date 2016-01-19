@@ -1,4 +1,13 @@
-{include file="header.tpl" title="Autoload Settings"}
+{*
+ * Customer autoload settings page
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * Copyright 2014-2016 Jacques Marneweck.  All rights strictly reserved.
+ *}
+{include file="header.tpl" title="Autoload Settings" nav="settings"}
 
       <div>
         <h2 class="page-header">Autoload Settings</h2>
@@ -41,7 +50,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-primary">Update Autoload Settings</button>
+            <button data-disable-with="Processing ..." type="submit" class="btn btn-primary">Update Autoload Settings</button>
           </div>
         </div>
       </form>
