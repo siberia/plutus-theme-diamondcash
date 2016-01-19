@@ -7,7 +7,7 @@
  *
  * Copyright 2014-2015 Jacques Marneweck.  All rights strictly reserved.
  *}
-{include file="header.tpl" title="Accounts Page"}
+{include file="header.tpl" title="Accounts Page" nav="accounts"}
 
       <div>
         <h2 class="page-header">Diamond Cash Card Dashboard</h2>

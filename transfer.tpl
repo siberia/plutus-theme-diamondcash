@@ -1,4 +1,4 @@
-{include file="header.tpl" title="Transfer Between Accounts Page"}
+{include file="header.tpl" title="Transfer Between Accounts Page" nav="transfer"}
 
       <div>
         <h2 class="page-header">Transfer Between Accounts</h2>
