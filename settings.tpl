@@ -5,9 +5,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2015 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2016 Jacques Marneweck.  All rights strictly reserved.
  *}
-{include file="header.tpl" title="Settings"}
+{include file="header.tpl" title="Settings" nav="settings"}
 
       <div>
         <h2 class="page-header">Settings</h2>
@@ -40,7 +40,7 @@
         </div>
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-primary">Change Password</button>
+            <button data-disable-with="Processing ..." type="submit" class="btn btn-primary">Change Password</button>
           </div>
         </div>
       </form>
