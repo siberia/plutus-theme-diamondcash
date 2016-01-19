@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Jacques Marneweck // www.leopardrock.com">
-    <meta name="copyright" content="2014-2015 Jacques Marneweck.  All rights strictly reserved.">
+    <meta name="copyright" content="2014-2016 Jacques Marneweck.  All rights strictly reserved.">
     <meta name="keywords" content="diamondcash, diamond cash, diamond cash card, symelation, symelation holdings, diamond card, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="Diamond Cash Card &mdash; Your Money Matters">
     <title>Diamond Cash Card &mdash; Your Money Matters &mdash; Signin</title>
@@ -67,7 +67,7 @@
 <div>
 
       <footer>
-        <p>&copy; 2014&mdash;2015 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Symelation Holdings (Pty) Ltd is a juristic representative of FSP 6814. Call Centre: 086 111 3673.
+        <p>&copy; 2014&mdash;2016 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Symelation Holdings (Pty) Ltd is a juristic representative of FSP 6814. Call Centre: 086 111 3673.
         </p>
 
         <p>
