@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Jacques Marneweck // www.leopardrock.com">
-    <meta name="copyright" content="2014-2015 Jacques Marneweck and Timothy Colman.  All rights strictly reserved.">
+    <meta name="copyright" content="2014-2016 Jacques Marneweck and Timothy Colman.  All rights strictly reserved.">
     <meta name="csrf-token" content="{$csrf_token}">
     <meta name="csrf-param" content="{$csrf_key}">
 
