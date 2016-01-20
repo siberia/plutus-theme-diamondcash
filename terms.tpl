@@ -31,7 +31,7 @@
       </div>
 
       <div class="form-signin">
-        <h2 class=page-header">IMOGO Terms and Conditions</h2>
+        <h2 class="page-header">Diamond Cash Terms and Conditions</h2>
 
 {if isset($smarty.session.flash.error)}<div class="alert alert-danger" role="alert">You need to accept the terms and conditions before you can continue.</div>{/if}
 
