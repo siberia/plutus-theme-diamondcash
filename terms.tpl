@@ -302,8 +302,7 @@ In order to avoid suspension of your account, please forward proof of residentia
       </footer>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+{include file="_partials/footer-jqbs.tpl"}
     <script src="/vendor/jquery-ujs/src/rails.js"></script>
 {include file="_partials/gauges.tpl"}
   </body>

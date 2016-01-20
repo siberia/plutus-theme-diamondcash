@@ -2,13 +2,7 @@
     Signed in as <strong>{$smarty.session.first_name} {$smarty.session.last_name}</strong>.
   </div>
 
-{if $usecdn}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-{else}
-  <script src="/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-{/if}
+{include file="_partials/footer-jqbs.tpl"}
   <script src="/vendor/jquery-ujs/src/rails.js"></script>
   <script src="/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
   <script src="/js/platform.js"></script>
