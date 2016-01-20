@@ -32,8 +32,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="inputBank3" class="col-sm-2 control-label">Bank</label>
-
+    <label for="inputBank" class="col-sm-2 control-label">Bank</label>
     <div class="col-sm-10">
       <select name="bank" class="form-control" id="inputBank">
         <option value="">Select Bank</option>
@@ -44,7 +43,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="inputAccount Number3" class="col-sm-2 control-label">Account Number</label>
+    <label for="inputAccountNumber" class="col-sm-2 control-label">Account Number</label>
     <div class="col-sm-10">
       <input type="text" name="account_number" class="form-control" id="inputAccountNumber" placeholder="Account Number">
     </div>
@@ -68,7 +67,7 @@
   <div class="form-group">
     <label for="inputYourReference" class="col-sm-2 control-label">Your Reference</label>
     <div class="col-sm-10">
-      <input type="text" name="reference1" class="form-control" id="inputYotYourReferencee" placeholder="Your Reference">
+      <input type="text" name="reference1" class="form-control" id="inputYourReferencee" placeholder="Your Reference">
     </div>
   </div>
   <div class="form-group">
