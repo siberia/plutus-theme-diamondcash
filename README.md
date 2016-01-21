@@ -1,7 +1,8 @@
 # Diamond Cash Card Theme for Plutus
 
-This theme for Plutus is for Symelation Holdings (Pty) Ltd's Diamond
-Cash Card brand.
+This theme for [Plutus](http://www.siberia.co.za/products/plutus/) is for
+Symelation Holdings (Pty) Ltd's [Diamond Cash Card](http://www.diamondcash.co.za/)
+brand.
 
 ## COPYRIGHT
 
