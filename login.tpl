@@ -71,7 +71,6 @@
         </p>
 
         <p>
-          Powered by <a href="http://www.siberia.co.za/products/plutus/">Plutus</a>.  Made with &hearts; in Cape Town by <a href="http://www.siberia.co.za/">Siberia</a>.
         </p>
       </footer>
     </div>
