@@ -29,7 +29,7 @@
              <strong>Bank:</strong> Standard Bank of South Africa<br />
              <strong>Account Number:</strong> 063010585<br />
              <strong>Branch Code:</strong> 051001<br />
-             <strong>Reference:</strong> TAP - YOURPHONENUMBER
+             <strong>Reference:</strong> TAP - YOURGOVID
            </p>
          </div>
 
