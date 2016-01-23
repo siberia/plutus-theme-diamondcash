@@ -1,4 +1,4 @@
-{include file="header.tpl" title="four oh four"}
+{include file="header.tpl" title="four oh four" nav=""}
 
 <h1>404</h1>
 
