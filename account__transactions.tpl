@@ -1,4 +1,4 @@
-{include file="header.tpl" title="Account Transactions Page"}
+{include file="header.tpl" title="Account Transactions Page" nav="accounts"}
 
 <h1 class="hidden-print">Account Transactions</h1>
 
