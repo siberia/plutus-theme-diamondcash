@@ -11,6 +11,10 @@
     Signed in as <strong>{$smarty.session.first_name} {$smarty.session.last_name}</strong>.
   </div>
 
+  <div class="container hidden-print">
+    &copy; 2014-2016 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Use subject to license terms.
+  </div>
+
 {include file="_partials/footer-jqbs.tpl"}
   <script src="/vendor/jquery-ujs/src/rails.js"></script>
   <script src="/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
