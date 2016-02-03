@@ -27,7 +27,7 @@
         <ul class="nav nav-pills pull-right">
           <li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
         </ul>
-        <h3 class="text-muted"><img src="/images/imogo.png" alt="IMOGO" height="75"></h3>
+        <h3 class="text-muted"><img src="/images/brands/diamondcash.jpg" alt="Diamond Cash" height="75"></h3>
       </div>
 
       <hr />
