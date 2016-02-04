@@ -1,4 +1,4 @@
-{include file="header.tpl" title="Add Beneficiary"}
+{include file="header.tpl" title="Add Beneficiary" nav="beneficiaries"}
 
       <div>
         <h2 class="page-header">Add beneficiary</h2>
