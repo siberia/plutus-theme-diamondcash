@@ -40,7 +40,7 @@
       <div class="form-signin">
         <h2 class=page-header">Login to your account</h2>
 
-{if isset($smarty.session.flash.error)}<div class="alert alert-danger" role="alert">Invalid username or password.</div>{/if}
+{if isset($smarty.session.flash.errors)}<div class="alert alert-danger" role="alert">{$smarty.session.flash.errors.0}</div>{/if}
 
       <form accept-charset="UTF-8" method="post" autocomplete="off" class="form-horizontal" role="form">
         <input name="utf8" type="hidden" value="&#x2713;" />
