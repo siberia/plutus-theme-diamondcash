@@ -43,7 +43,7 @@
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <input data-disable-with="Processing ..." type="submit" class="btn btn-primary" value="Add Beneficiary">
+      <input data-disable-with="Processing ..." type="submit" class="btn btn-primary" value="Submit Documentation">
     </div>
   </div>
       </form>
@@ -85,7 +85,7 @@
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <input data-disable-with="Processing ..." type="submit" class="btn btn-primary" value="Add Beneficiary">
+      <input data-disable-with="Processing ..." type="submit" class="btn btn-primary" value="Submit Documentation">
     </div>
   </div>
       </form>
@@ -96,6 +96,9 @@
       <hr />
         <h3 class="page-header">Send Forex</h3>
 
+        <div class="pull-right">
+          <a class="btn btn-primary" href="/forex/send">Send Forex</a>
+        </div>
         <h4 class="page-header">Pending Transactions</h4>
 
         <h4 class="page-header">Last 10 Sent Transactions</h4>
