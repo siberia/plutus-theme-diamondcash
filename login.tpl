@@ -12,6 +12,7 @@
     <title>Diamond Cash Card &mdash; Your Money Matters &mdash; Signin</title>
 {include file="_partials/header-bsfa.tpl"}
     <link href="/css/diamondcash.css" rel="stylesheet">
+    <link type="text/plain" rel="author" href="/humans.txt">
 
     <script type="text/javascript">
       (window.top == window.self) || (window.top.location.href = self.location.href);

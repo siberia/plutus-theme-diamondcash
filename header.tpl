@@ -23,6 +23,7 @@
 {include file="_partials/header-bsfa.tpl"}
     <link href="/css/diamondcash.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto" rel="stylesheet">
+    <link type="text/plain" rel="author" href="/humans.txt">
 
 {include file="_partials/header-shims.tpl"}
   </head>
