@@ -84,9 +84,9 @@
 
 
       <div class="pull-right">
-        <a class="btn btn-primary" href="/stoporders/add">Add Stop Order</a>
+        <a class="btn btn-primary" href="/stoporders/add">Add Standing Order</a>
       </div>
-      <h3>My Stop Orders</h3>
+      <h3>My Standing Orders</h3>
 
       <table class="table table-bordered table-striped">
         <thead>
