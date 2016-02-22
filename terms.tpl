@@ -193,7 +193,7 @@ Service channels may not be available from time to time. During unavailability, 
 TOP
 15. Symelations’s Liability:
 
-Symelation and SBSA will not be liable for any kind of loss or damage you may suffer, including indirect, direct, special, incidental or consequential damages, because of your use of, or inability to use, the services. Symelation and SBSA are also not liable for the following (except where such loss or damage is caused by Symelation’s negligence or intent):
+Symelation, it's vendors and SBSA will not be liable for any kind of loss or damage you may suffer, including indirect, direct, special, incidental or consequential damages, because of your use of, or inability to use, the services. Symelation and SBSA are also not liable for the following (except where such loss or damage is caused by Symelation’s negligence or intent):
 
 
 •	Any loss or damage, which you or any other party, may suffer due to unauthorised interception and/or monitoring.
