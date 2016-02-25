@@ -24,7 +24,7 @@
 
          <div class="alert alert-info">
            <p>
-             To deposit money into your account, you can deposit money into the following pooled account: <br />
+             To deposit money into your account, you can deposit money into the following account: <br />
              <br />
              <strong>Bank:</strong> Standard Bank of South Africa<br />
              <strong>Account Number:</strong> 063010585<br />
