@@ -16,6 +16,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Jacques Marneweck // www.leopardrock.com">
     <meta name="copyright" content="2014-2016 Jacques Marneweck and Timothy Colman.  All rights strictly reserved.">
+    <meta name="licensee" content="Transaction Africa Platform (Pty) Ltd.">
     <meta name="csrf-token" content="{$csrf_token}">
     <meta name="csrf-param" content="{$csrf_key}">
 
@@ -86,11 +87,27 @@
 {/if}
             </ul>
           </li>
+{if in_array($smarty.session.user_id, $globals.admins)}
+          <li class="dropdown">
+            <a class="dropdown-toggle"
+              data-toggle="dropdown"
+              href="#">
+              Tools
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+{/if}
 {if $smarty.session.is_agent}
           <li><a href="/agent"><i class="fa fa-wrench"></i> Agent</a></li>
 {/if}
+{if in_array($smarty.session.user_id, $globals.admins) || in_array($smarty.session.user_id, $globals.callcenter)}
+          <li><a href="/callcentre"><i class="fa fa-headphones"></i> Call Centre</a></li>
+{/if}
 {if $smarty.session.is_admin}
           <li><a href="/admin"><i class="fa fa-cogs"></i> Basecamp</a></li>
+{/if}
+{if in_array($smarty.session.user_id, $globals.admins)}
+            </ul>
 {/if}
           </li>
           <li><a href="/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
