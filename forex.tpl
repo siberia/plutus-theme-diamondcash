@@ -90,7 +90,7 @@
   </div>
       </form>
         <p>
-          Please submit your documentation to our call center at <a href="mailto:support@imogo.co.za?subject=IMOGO%20Forex">support@imogo.co.za</a>.
+          Please submit your documentation to our call center at <a href="mailto:support@diamondcash.co.za?subject=Diamond%20Cash%20Forex">support@diamondcash.co.za</a>.
         </p>
 
       <hr />
