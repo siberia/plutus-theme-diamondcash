@@ -40,7 +40,7 @@
 {include file="_partials/csrf.tpl"}
   <div class="form-group">
     <textarea class="form-control" rows="10" readonly>
-Symelation Holdings (Pty) Ltd is an Authorised Financial Service Provider: FSP No.: 6814
+Symelation Holdings (Pty) Ltd is an Authorised Financial Service Provider: FSP No.: 40003
 
 Please read and accept the terms and conditions of this agreement to continue with the registration of your new mobile wallet account. This agreement only applies to you if you use any of the following self-service channels offered by Symelation Holdings (Pty) Ltd, with the registration number 2014/287136/07 residing at 7th Floor, West Tower, Canal Walk, Century City, Cape Town 7840, (“Symelation”)
 
@@ -298,7 +298,7 @@ In order to avoid suspension of your account, please forward proof of residentia
 <div>
 
       <footer>
-        <p>&copy; 2014&mdash;2016 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Symelation Holdings is a jurestic representative of Financial Services Provider: FSP Number: 6814.
+        <p>&copy; 2014&mdash;2016 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Symelation Holdings is a jurestic representative of Financial Services Provider: FSP Number: 40003.
       </footer>
     </div>
 
