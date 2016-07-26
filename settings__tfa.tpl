@@ -11,7 +11,10 @@
 {include file="_partials/errors.tpl"}
 
 <p>
-  Please download the Google Authenticator application from the App Store for iOS or Google Play for Android and scan this QR code.  Enter the verification code
+  Please download the Google Authenticator application from the
+  <a href="https://itunes.apple.com/en/app/google-authenticator/id388497605?mt=8">App Store for iOS</a> or
+  <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2">Google Play for Android</a>
+  and scan this QR code.  Enter the verification code
   provided by the Google Authenticaticator application below to enable Two Factor Authentication.
 </p>
 
