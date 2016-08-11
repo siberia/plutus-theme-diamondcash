@@ -18,10 +18,14 @@
 {include file="_partials/success.tpl"}
 {include file="_partials/errors.tpl"}
 
+        <div class="alert alert-danger">
+          Please do not deposit any funds into the Standard Bank account while the account is frozen until further notice.
+        </div>
+
         <div class="alert alert-info">
           Are you expecting a deposit and cannot see it?  No problem, call the call centre on 086 111 3673.  This can happen if your reference was not correct when the deposit was made.
         </div>
-
+{*
          <div class="alert alert-info">
            <p>
              To deposit money into your account, you can deposit money into the following account: <br />
@@ -32,7 +36,7 @@
              <strong>Reference:</strong> TAP - YOURGOVID
            </p>
          </div>
-
+*}
         <h3>My Accounts</h3>
 
         <table class="table table-striped table-bordered">
