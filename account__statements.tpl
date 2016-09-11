@@ -1,4 +1,4 @@
-{include file="header.tpl" title="Your Statements"}
+{include file="header.tpl" title="Your Statements" nav="accounts"}
 
 <h1>Download your statement</h1>
 
@@ -23,7 +23,11 @@ You presently do not have any account statements available for download.
 {foreach $months item=row}
     <tr>
       <td>{$row.month_name}</td>
-      <td><a href="/{if $account.account_type eq 'wallet'}accounts{else}businessaccounts{/if}/{$account.uuid}/statements/{$row.month_yyyymm}/csv">CSV</a></td>
+      <td>
+        <a href="/{if $account.account_type eq 'wallet'}accounts{else}businessaccounts{/if}/{$account.uuid}/statements/{$row.month_yyyymm}/csv">CSV</a>
+        &bull;
+        <a href="/{if $account.account_type eq 'wallet'}accounts{else}businessaccounts{/if}/{$account.uuid}/statements/{$row.month_yyyymm}/pdf">PDF</a>
+      </td>
     </tr>
 {/foreach}
   </tbody>
