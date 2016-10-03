@@ -85,6 +85,7 @@
 {if $smarty.session.show_autoload}
               <li><a href="/settings/autoload">Autoload Settings</a></li>
 {/if}
+              <li><a href="/settings/tfa">Two Factor Authentication</a></li>
             </ul>
           </li>
 {if in_array($smarty.session.user_id, $globals.admins)}
