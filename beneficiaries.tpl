@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2016 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2017 Jacques Marneweck.  All rights strictly reserved.
  *}
 {include file="header.tpl" title="Beneficiaries Page" nav="beneficiaries"}
 
@@ -26,6 +26,7 @@
 {include file="_partials/utf8.tpl"}
 {include file="_partials/csrf.tpl"}
         <input type="hidden" name="step" value="verify" />
+        <input type="hidden" name="nonce" value="{$nonce|escape}" />
         <table class="table table-striped table-bordered">
           <thead>
             <tr>
@@ -45,7 +46,12 @@
               <td><input type="text" name="amount[]" value="0.00"></td>
               <td><a href="#">Payment History</a> &bull; <a href="/beneficiaries/{$row.id}" data-method="DELETE" rel="nofollow" data-confirm="Are you sure you want to delete this beneficiary?">Delete</a></td>
             </tr>
+{foreachelse}
+            <tr>
+              <td colspan="5">You presently do not have any beneficiaries defined.  <a href="/beneficiaries/add">Create your first beneficiary</a>.</td>
+            </tr>
 {/foreach}
+{if sizeof($beneficiaries) > 0}
             <tr>
              <td>&nbsp;</td>
              <td>{if $smarty.session.fica_status ne 0}Pay from account:{/if}</td>
@@ -71,6 +77,7 @@
 {/if}
 </td>
             </tr>
+{/if}
           </tbody>
         </table>
 {if $smarty.session.fica_status ne 0}
