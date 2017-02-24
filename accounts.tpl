@@ -5,7 +5,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Copyright 2014-2016 Jacques Marneweck.  All rights strictly reserved.
+ * Copyright 2014-2017 Jacques Marneweck.  All rights strictly reserved.
  *}
 {include file="header.tpl" title="Accounts Page" nav="accounts"}
 
@@ -18,25 +18,21 @@
 {include file="_partials/success.tpl"}
 {include file="_partials/errors.tpl"}
 
-        <div class="alert alert-danger">
-          Please do not deposit any funds into the Standard Bank account while the account is frozen until further notice.
-        </div>
-
         <div class="alert alert-info">
           Are you expecting a deposit and cannot see it?  No problem, call the call centre on 086 111 3673.  This can happen if your reference was not correct when the deposit was made.
         </div>
-{*
-         <div class="alert alert-info">
-           <p>
-             To deposit money into your account, you can deposit money into the following account: <br />
-             <br />
-             <strong>Bank:</strong> Standard Bank of South Africa<br />
-             <strong>Account Number:</strong> 063010585<br />
-             <strong>Branch Code:</strong> 051001<br />
-             <strong>Reference:</strong> TAP - YOURGOVID
-           </p>
-         </div>
-*}
+
+        <div class="alert alert-info">
+          <p>
+            To deposit money into your account, you can deposit money into the following account: <br />
+            <br />
+            <strong>Bank:</strong> ABSA Bank<br />
+            <strong>Account Number:</strong> 4090578095<br />
+            <strong>Branch Code:</strong> 632005<br />
+            <strong>Reference:</strong> YOURGOVID
+          </p>
+        </div>
+
         <h3>My Accounts</h3>
 
         <table class="table table-striped table-bordered">
