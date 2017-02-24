@@ -16,7 +16,7 @@ brand.
 
 ## COPYRIGHT
 
-Copyright 2014-2016 Jacques Marneweck.  All right strictly reserved.
+Copyright 2014-2017 Jacques Marneweck.  All right strictly reserved.
 
 ## LICENSE
 
