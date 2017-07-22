@@ -72,12 +72,40 @@
       <td>ZAR 2.80</td>
     </tr>
     <tr>
+      <td>POS Transaction With Cash Back Fee</td>
+      <td>ZAR 3.50</td>
+    </tr>
+    <tr>
+      <td>ATM Balance Inquiry Fee</td>
+      <td>ZAR 4.90</td>
+    </tr>
+    <tr>
+      <td>DECLINE at ATM</td>
+      <td>ZAR 4.90</td>
+    </tr>
+    <tr>
       <td>DECLINE at EFT POS</td>
-      <td>ZAR 4.00</td>
+      <td>ZAR 4.90</td>
     </tr>
     <tr>
       <td>Cash back at EFT POS</td>
       <td>ZAR 3.50</td>
+    </tr>
+    <tr>
+      <td>Transaction Notifcation SMS Fee</td>
+      <td>ZAR 0.50</td>
+    </tr>
+    <tr>
+      <td>IVR Request Fee</td>
+      <td>ZAR 1.50</td>
+    </tr>
+    <tr>
+      <td>SMS Balance Inquiry Fee</td>
+      <td>ZAR 1.50</td>
+    </tr>
+    <tr>
+      <td>SMS OTP Fee</td>
+      <td>ZAR 0.50</td>
     </tr>
     <tr>
       <td>Exchange rate</td>
