@@ -86,6 +86,28 @@
 {/if}
 </form>
 
+<h4>Last 10 Payments (off us)</h4>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Beneficiary Name</th>
+      <th>Amount Paid</th>
+      <th>Instruction Received</th>
+    </tr>
+  </thead>
+  <tbody>
+{foreach $previouspayments item=row}
+    <tr>
+      <td>{$row.name}</td>
+      <td>ZAR {($row.amount/100)|string_format:"%0.2f"}</td>
+      <td>{$row.queued_at|datetz}</td>
+      <td><a class="btn btn-primary" href="/beneficiaries/proofofpayment/{$row.txn_ref}"><i class="fa fa-fw fa-download"></i> Download Proof of Payment</a><td>
+    </tr>
+{/foreach}
+  </tbody>
+</table>
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
