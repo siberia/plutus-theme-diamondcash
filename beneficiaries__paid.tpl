@@ -31,6 +31,7 @@ Your payment has been processed.
               <th>Your Reference</th>
               <th>Their Reference</th>
               <th>Amount</th>
+              <th>&nbsp;</th>
             </tr>
           </thead>
           <tbody>
@@ -40,6 +41,7 @@ Your payment has been processed.
               <td>{$row.reference1|escape}</td>
               <td>{$row.reference2|escape}</td>
               <td>R {($row.amount/100)|string_format:"%.2f"}</td>
+              <td>{if $row.onnet == 0}<a class="btn btn-primary" href="/beneficiaries/proofofpayment/{$row.txn_ref}"><i class="fa fa-fw fa-download"></i> Download Proof of Payment</a>{/if}</td>
             </tr>
 {/foreach}
             <tr>
