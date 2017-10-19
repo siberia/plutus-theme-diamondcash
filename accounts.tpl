@@ -62,7 +62,7 @@
               <td><div class="pull-right">R {($row.balance/100)|string_format:"%.2f"}</div></td>
 {/if}
 {else}
-              <td><i class="fa fa-credit-card"></i> Diamond Cash Card &mdash; {$row.masked_cardnumber} <div class="pull-right"></div></td>
+              <td><i class="fa fa-credit-card"></i> Diamond Cash Card &mdash; {$row.masked_cardnumber} <div class="pull-right"><a href="/debitcards/{$row.uuid}/transactions">View Transactions</a> &bull; </div></td>
               <td><div class="pull-right">R {($row.account_number|find_actual_balance_for_debitcard)/100|string_format:"%.2f"}</div></td>
               <td><div class="pull-right">R {($row.account_number|find_available_balance_for_debitcard)/100|string_format:"%.2f"}</div></td>
 {/if}
@@ -71,6 +71,7 @@
 {foreach $business_accounts item=row}
             <tr>
               <td><i class="fa fa-money"></i> Diamond Business Account &mdash; {$row.account_number} <div class="pull-right"><a href="/businessaccounts/{$row.uuid}/users">View Users</a> &bull; <a href="/businessaccounts/{$row.uuid}/transactions">View Transactions</a> &bull; <a href="/businessaccounts/{$row.uuid}/statements">View statements</a></div></td>
+              <td><div class="pull-right">R {($row.balance/100)|string_format:"%.2f"}</div></td>
               <td><div class="pull-right">R {($row.balance/100)|string_format:"%.2f"}</div></td>
             </tr>
 {/foreach}
