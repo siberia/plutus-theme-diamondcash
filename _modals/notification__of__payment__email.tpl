@@ -15,9 +15,9 @@
         <h4 class="modal-title" id="notificationOfPaymentModalLabel">Email Notification of Payment</h4>
       </div>
       <div class="modal-body">
-        <form method="post">
+        <form method="post" id="nop-email-form">
 {include file="../_partials/csrf.tpl"}
-          <input name="txn_ref" value="">
+          <input id="txn_ref" type="hidden" name="txn_ref" value="">
           <div class="form-group">
             <label for="recipient-name" class="control-label">Recipient:</label>
             <input type="text" name="email_address" class="form-control" id="recipient-name">
@@ -26,7 +26,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+        <button type="button" class="btn btn-primary" id="nop-send-email">Send message</button>
       </div>
     </div>
   </div>
