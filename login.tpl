@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="author" content="Jacques Marneweck // www.leopardrock.com">
-    <meta name="copyright" content="2014-2017 Symelation Holdings (Pty) Ltd.  All rights strictly reserved.">
+    <meta name="copyright" content="2014-2018 Symelation Holdings (Pty) Ltd.  All rights strictly reserved.">
     <meta name="keywords" content="diamondcash, diamond cash, diamond cash card, symelation, symelation holdings, diamond card, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="Diamond Cash Card &mdash; Your Money Matters">
     <title>Diamond Cash Card &mdash; Your Money Matters &mdash; Signin</title>
@@ -39,7 +39,7 @@
       </div>
 
       <div class="form-signin">
-        <h2 class=page-header">Login to your account</h2>
+        <h2 class="page-header">Login to your account</h2>
 
 {if isset($smarty.session.flash.errors)}<div class="alert alert-danger" role="alert">{$smarty.session.flash.errors.0}</div>{/if}
 
@@ -68,7 +68,7 @@
 <div>
 
       <footer>
-        <p>&copy; 2014&mdash;2017 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Call Centre: 086 111 3673.
+        <p>&copy; 2014&mdash;2018 Symelation Holdings (Pty) Ltd and/or it's licensors.  All rights strictly reserved.  Call Centre: 086 111 3673.
         </p>
 
         <p>
