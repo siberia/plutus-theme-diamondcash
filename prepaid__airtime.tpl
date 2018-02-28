@@ -1,4 +1,4 @@
-{include file="header.tpl" title="Purchase Prepaid Airtime"}
+{include file="header.tpl" title="Purchase Prepaid Airtime" nav="prepaid"}
 
       <div>
         <h2 class="page-header">Prepaid Airtime</h2>
