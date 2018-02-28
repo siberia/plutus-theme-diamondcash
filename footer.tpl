@@ -61,6 +61,7 @@ jQuery(document).ready(function(){
       case 'telkommobile':
       case 'telkom':
       case 'neotel':
+      case 'imogotel':
         $('#vouchers').show();
         $.ajax({
           cache:false,
@@ -71,7 +72,7 @@ jQuery(document).ready(function(){
           contentType: 'application/json; charset=utf-8',
           success: function(json) {
             $('#voucher').empty();
-            $.each(json, function(i, data) {
+            $.each(json['details'], function(i, data) {
               console.log(data);
               $('#voucher').append('<option value="' + data['voucher_code'] + '">' + data['description'] + '</option>');
             });
@@ -83,6 +84,30 @@ jQuery(document).ready(function(){
       break;
     }
 
+    /**
+     * Need to change the text input to a dropdown for ImogoTel/BongoTel users as we link MSISDN shown to user to
+     * the email address on file on TOS.
+     */
+    if ('imogotel' == selected) {
+        $('#inputMSISDN').replaceWith('<select name="msisdn" class="form-control" id="inputMSISDN"></select>');
+        $.ajax({
+          cache:false,
+          url:'/prepaid/airtime/ajax/diallerusers',
+          type:'POST',
+          data: JSON.stringify({ 'network': selected, '{/literal}{$csrf_key}{literal}': '{/literal}{$csrf_token}{literal}' }),
+          dataType: 'json',
+          contentType: 'application/json; charset=utf-8',
+          success: function(json) {
+            $('#inputMSISDN').empty();
+            $.each(json['details'], function(i, data) {
+              console.log(data);
+              $('#inputMSISDN').append('<option value="' + data['email'] + '">' + data['msisdn'] + '</option>');
+            });
+          }
+        });
+    } else {
+        $('#inputMSISDN').replaceWith('<input class="form-control" id="inputMSISDN" type="text" name="msisdn" placeholder="Phone Number">');
+    }
   }).change();
   $('#vouchers').hide();
 });
