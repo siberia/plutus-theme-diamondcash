@@ -1,9 +1,7 @@
-{include file="header.tpl" title="Prepaid Electricity"}
+{include file="header.tpl" title="Prepaid Electricity" nav="prepaid"}
 
       <div>
-        <h2 class=page-header">Prepaid Electricity</h2>
-
-        <hr />
+        <h2 class="page-header">Prepaid Electricity</h2>
       </div>
 
       <div>
