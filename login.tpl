@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="Jacques Marneweck // www.leopardrock.com">
+    <meta name="author" content="Jacques Marneweck // www.kaizengarden.co">
     <meta name="copyright" content="2014-2018 Symelation Holdings (Pty) Ltd.  All rights strictly reserved.">
     <meta name="keywords" content="diamondcash, diamond cash, diamond cash card, symelation, symelation holdings, diamond card, money, wallet, account, eftdebit, eftcredit, debitcard, debitcards, banking, bank, payroll, debitorder, debitorders, eftpos, standing order, debitorder, garnishee order">
     <meta name="description" content="Diamond Cash Card &mdash; Your Money Matters">
